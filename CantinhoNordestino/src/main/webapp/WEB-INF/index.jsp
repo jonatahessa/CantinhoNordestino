@@ -14,6 +14,7 @@
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
         <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Prompt:500" rel="stylesheet">
         <title>Cantinho Nordestino Grill</title>
     </head>
     <body>
@@ -39,6 +40,14 @@
                 </nav>
             </div>
         </header>
+
+        <div id="logo-header" class="container-fluid">
+          <div class="row">
+            <div id="painel-logo" class="col-12">
+              <h1 class="text-center text-light fonte-prompt">Cantinho Nordestino <span class="text-danger">Grill</span></h1>
+            </div>
+          </div>
+        </div>
 
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -70,7 +79,7 @@
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3">
                     <h1 class="fonte-amaranth">Cardápio</h1>
                     <hr/>
-                    
+
             </div>
           </div>
 

@@ -6,6 +6,14 @@ body {
     background-size: cover;
 }
 
+#logo-header {
+  background: url(../_imagens/background-logo.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body .static-header {
     top: 0;
     width: 100%;
@@ -187,8 +195,16 @@ body .container__content > div.section4 {
     background: #ddebfd;
 }
 
+#painel-logo {
+  height: 500px;
+}
+
 .fonte-amaranth {
   font-family: 'Amaranth', sans-serif;
+}
+
+.fonte-prompt {
+  font-family: 'Prompt', sans-serif;
 }
 
 .backgrounded {
