@@ -60,42 +60,18 @@ public class DaoProduto {
         return executarConsulta(sql);
     }
 
-    public static List<Produto> listarPaginaInicialPizza()
+    public static List<Produto> listarPaginaInicialComida()
             throws SQLException, Exception {
         String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'PIZZA' ORDER BY ID;";
+                + "Tipo = 'COMIDA' ORDER BY ID;";
 
         return executarConsulta(sql);
     }
     
-    public static List<Produto> listarPaginaInicialDoces()
+    public static List<Produto> listarPaginaInicialBebida()
             throws SQLException, Exception {
         String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'DOCE' ORDER BY ID;";
-
-        return executarConsulta(sql);
-    }
-    
-    public static List<Produto> listarPaginaInicialCalzone()
-            throws SQLException, Exception {
-        String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'CALZONE' ORDER BY ID;";
-
-        return executarConsulta(sql);
-    }
-    
-    public static List<Produto> listarPaginaInicialNovidades()
-            throws SQLException, Exception {
-        String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'NOVIDADE' ORDER BY ID;";
-
-        return executarConsulta(sql);
-    }
-    
-    public static List<Produto> listarPaginaInicialPromocoes()
-            throws SQLException, Exception {
-        String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'PROMOCAO' ORDER BY ID;";
+                + "Tipo = 'BEBIDA' ORDER BY ID;";
 
         return executarConsulta(sql);
     }

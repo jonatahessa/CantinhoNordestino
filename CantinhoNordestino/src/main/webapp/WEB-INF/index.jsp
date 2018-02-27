@@ -21,7 +21,7 @@
         <header class="static-header">
             <div class="inside-header"><nav>
                     <a href="#section1"><strong>Home</strong></a>
-                    <a href="#section2"><strong>Promoções</strong></a>
+                    <a href="#section2"><strong>Nossa Casa</strong></a>
                     <a href="#section3"><strong>Cardápio</strong></a>
                     <a href="#section4"><strong>Localização</strong></a>
                     <a href="#section5"><strong>Contato</strong></a>
@@ -33,7 +33,7 @@
             <div class="fheader__container">
               <nav>
                     <a href="#section1"><strong>Home</strong></a>
-                    <a href="#section2"><strong>Promoções</strong></a>
+                    <a href="#section2"><strong>Nossa Casa</strong></a>
                     <a href="#section3"><strong>Cardápio</strong></a>
                     <a href="#section4"><strong>Localização</strong></a>
                     <a href="#section5"><strong>Contato</strong></a>
@@ -41,17 +41,15 @@
             </div>
         </header>
 
-        <div id="logo-header" class="container-fluid">
-          <div class="row">
-            <div id="painel-logo" class="col-12">
-              <h1 class="text-center text-light fonte-prompt">Cantinho Nordestino <span class="text-danger">Grill</span></h1>
-            </div>
+        <div class="cem-pct">
+          <div class="cem-pct">
+              <img class="img-fluid cem-pct" src="./_imagens/logo.jpg" alt="logo do cantinho nordestino grill">
           </div>
         </div>
 
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1">
+                <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section1">
                     <h1 class="fonte-amaranth">Home</h1>
                     <hr/>
                     <div class="row">
@@ -68,7 +66,7 @@
             </div>
 
             <div class="row justify-content-center">
-              <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section2">
+              <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section2">
                 <h1 class="fonte-amaranth">Nossa Casa</h1>
                 <hr/>
               </div>
@@ -76,15 +74,27 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3">
+                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section3">
                     <h1 class="fonte-amaranth">Cardápio</h1>
                     <hr/>
+
+                    <div class="row justify-content-center">
+                      <div class="col-6">
+                        <button type="button" data-toggle="modal" data-target="#modal-comidas"><img src="" alt="">Clique para abrir comidas</button>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                      <div class="col-6">
+                        <button type="button" data-toggle="modal" data-target="#modal-bebidas"><img src="" alt="">Clique para abrir bebidas</button>
+                      </div>
+                    </div>
 
             </div>
           </div>
 
             <div class="row justify-content-center">
-                <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4">
+                <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section4">
                     <h1 class="fonte-amaranth">Localização</h1>
                     <hr/>
                     <h3 class="text-center">R. Miguel Fleta, 98 - Parque Doroteia, São Paulo - SP</h3>
@@ -93,7 +103,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section5">
+                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section5">
                     <h1 class="fonte-amaranth">Contato</h1>
                     <hr/>
                     <div class="row justify-content-center">
@@ -103,7 +113,7 @@
                                 <a class="text-dark" href="tel:011958254357"><strong>95825-4357</strong></a>
                                 <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
                             </h2>
-                            <p class="text-center">Copyright (c) Pizzaria Nostra Pizza Copyright Holder All Rights Reserved.</p>
+                            <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p>
                             <p class="text-center">Developed by Jonata Hessa</p>
                         </div>
                     </div>
@@ -111,23 +121,23 @@
             </div>
         </div>
 
-        <div class="modal fade" id="modal-pizzas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="modal-comidas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Comidas</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <ul class="col-12 cardapios">
-                            <c:forEach var="pizza" items="${pizzas}">
+                            <c:forEach var="comida" items="${comidas}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${pizza.codigo} - ${pizza.nome}</h5>
-                                        <h5 class="preco">${pizza.preco}</h5>
-                                        <p class="descricao">${pizza.descricao}</p>
+                                        <h5 class="titulo">${comida.nome}</h5>
+                                        <h5 class="preco">${comida.preco}</h5>
+                                        <p class="descricao">${comida.descricao}</p>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -140,23 +150,23 @@
             </div>
         </div>
 
-        <div class="modal fade" id="modal-doces" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="modal-bebidas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Doces</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <ul class="col-12 cardapios">
-                            <c:forEach var="doce" items="${doces}">
+                            <c:forEach var="bebida" items="${bebidas}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${doce.codigo - 78} - ${doce.nome}</h5>
-                                        <h5 class="preco">${doce.preco}</h5>
-                                        <p class="descricao">${doce.descricao}</p>
+                                        <h5 class="titulo">${bebida.nome}</h5>
+                                        <h5 class="preco">${bebida.preco}</h5>
+                                        <p class="descricao">${bebida.descricao}</p>
                                     </div>
                                 </li>
                             </c:forEach>

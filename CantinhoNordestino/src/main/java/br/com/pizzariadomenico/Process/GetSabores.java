@@ -28,19 +28,11 @@ public class GetSabores extends HttpServlet {
             throws ServletException, IOException, Exception {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        List<Produto> pizzas = Utils.ListarPizzasPaginaInicialPizzas();
-        List<Produto> doces = Utils.ListarPizzasPaginaInicialDoces();
-        List<Produto> promocao = Utils.ListarPizzasPaginaInicialPromocoes();
+        List<Produto> comidas = Utils.ListarPaginaInicialComidas();
+        List<Produto> bebidas = Utils.ListarPaginaInicialBebidas();
         
-        if (promocao != null) {
-            for (Produto prod : promocao) {
-                String promoConvert = prod.getDescricao().replaceAll("\n", "<br/>");
-                prod.setDescricao(promoConvert);
-            }
-        }
-        request.setAttribute("pizzas", pizzas);
-        request.setAttribute("doces", doces);
-        request.setAttribute("promocoes", promocao);
+        request.setAttribute("comidas", comidas);
+        request.setAttribute("bebidas", bebidas);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispatcher.forward(request, response);
     }
