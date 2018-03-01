@@ -44,6 +44,10 @@
         <servlet-name>AbrirEditar</servlet-name>
         <servlet-class>br.com.pizzariadomenico.Process.AbrirEditar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NossaCasa</servlet-name>
+        <servlet-class>br.com.pizzariadomenico.Process.NossaCasa</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GetSabores</servlet-name>
         <url-pattern>/GetSabores</url-pattern>
@@ -80,6 +84,10 @@
     <servlet-mapping>
         <servlet-name>AbrirEditar</servlet-name>
         <url-pattern>/AbrirEditar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NossaCasa</servlet-name>
+        <url-pattern>/NossaCasa</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

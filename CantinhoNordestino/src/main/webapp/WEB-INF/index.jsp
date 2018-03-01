@@ -3,48 +3,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <%@ include file = "headGeral.jsp" %>
         <link rel="stylesheet" href="./_resources/estiloPaginaInicial.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="./_imagens/favicon.ico" />
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
-        <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
-        <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Prompt:500" rel="stylesheet">
-        <title>Cantinho Nordestino Grill</title>
     </head>
     <body>
-        <header class="static-header">
-            <div class="inside-header"><nav>
-                    <a href="#section1"><strong>Home</strong></a>
-                    <a href="#section2"><strong>Nossa Casa</strong></a>
-                    <a href="#section3"><strong>Cardápio</strong></a>
-                    <a href="#section4"><strong>Localização</strong></a>
-                    <a href="#section5"><strong>Contato</strong></a>
-                </nav>
-            </div>
-        </header>
-
-        <header class="fixed-header">
-            <div class="fheader__container">
-              <nav>
-                    <a href="#section1"><strong>Home</strong></a>
-                    <a href="#section2"><strong>Nossa Casa</strong></a>
-                    <a href="#section3"><strong>Cardápio</strong></a>
-                    <a href="#section4"><strong>Localização</strong></a>
-                    <a href="#section5"><strong>Contato</strong></a>
-                </nav>
-            </div>
-        </header>
+        
+        <%@ include file = "header.jsp" %>
 
         <div class="cem-pct">
-          <div class="cem-pct">
-              <img class="img-fluid cem-pct" src="./_imagens/logo.jpg" alt="logo do cantinho nordestino grill">
-          </div>
+            <div class="cem-pct">
+                <img class="img-fluid cem-pct" src="./_imagens/logo.jpg" alt="logo do cantinho nordestino grill">
+            </div>
         </div>
 
         <div class="container-fluid">
@@ -65,13 +35,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-              <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section2">
-                <h1 class="fonte-amaranth">Nossa Casa</h1>
-                <hr/>
-              </div>
-
-            </div>
+            
 
             <div class="row justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section3">
@@ -79,19 +43,19 @@
                     <hr/>
 
                     <div class="row justify-content-center">
-                      <div class="col-6">
-                        <button type="button" data-toggle="modal" data-target="#modal-comidas"><img src="" alt="">Clique para abrir comidas</button>
-                      </div>
+                        <div class="col-6">
+                            <button type="button" data-toggle="modal" data-target="#modal-comidas"><img src="" alt="">Clique para abrir comidas</button>
+                        </div>
                     </div>
 
                     <div class="row justify-content-center">
-                      <div class="col-6">
-                        <button type="button" data-toggle="modal" data-target="#modal-bebidas"><img src="" alt="">Clique para abrir bebidas</button>
-                      </div>
+                        <div class="col-6">
+                            <button type="button" data-toggle="modal" data-target="#modal-bebidas"><img src="" alt="">Clique para abrir bebidas</button>
+                        </div>
                     </div>
 
+                </div>
             </div>
-          </div>
 
             <div class="row justify-content-center">
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section4">
