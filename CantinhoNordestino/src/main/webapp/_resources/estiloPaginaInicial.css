@@ -1,11 +1,3 @@
-body {
-    background: url(../_imagens/background.jpg) center center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 body .static-header {
     top: 0;
     width: 100%;
@@ -188,20 +180,6 @@ body .container__content > div.section4 {
     background: #ddebfd;
 }
 
-.fonte-amaranth {
-  font-family: 'Amaranth', sans-serif;
-}
-
-.fonte-prompt {
-  font-family: 'Prompt', sans-serif;
-}
-
-.backgrounded {
-    padding-top: 40px;
-    background-color: #FFFFFF;
-    opacity: 0.9;
-}
-
 .cem-pct {
   width: 100%;
 }
@@ -214,26 +192,4 @@ body .container__content > div.section4 {
 
 .paineis {
   margin-bottom: 40px;
-}
-
-.cardapios {
-  list-style: none;
-}
-
-.titulopreco {
-  font-family: 'Lato', sans-serif;
-}
-
-.titulo {
-  color: red;
-  float: left;
-}
-
-.preco {
-  color: green;
-  float: right;
-}
-
-.descricao {
-  clear: both;
 }

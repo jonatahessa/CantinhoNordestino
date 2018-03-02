@@ -33,7 +33,7 @@ public class GetSabores extends HttpServlet {
         
         request.setAttribute("comidas", comidas);
         request.setAttribute("bebidas", bebidas);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/cardapio.jsp");
         dispatcher.forward(request, response);
     }
 

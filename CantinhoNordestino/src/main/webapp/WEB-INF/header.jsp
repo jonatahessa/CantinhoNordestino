@@ -7,13 +7,13 @@
             <div class="menu">
                 <ul>
                     <li class="page_item page-item-2">
-                        <a href="#" class="waves-effect">Home</a>
+                        <a href="PaginaInicial" class="waves-effect">Home</a>
                     </li>
                     <li class="page_item page-item-2">
                         <a href="NossaCasa" class="waves-effect">Nossa Casa</a>
                     </li>
                     <li class="page_item page-item-2">
-                        <a href="#" class="waves-effect">Cardápio</a>
+                        <a href="GetSabores" class="waves-effect">Cardápio</a>
                     </li>
                     <li class="page_item page-item-2">
                         <a href="#" class="waves-effect">Localização</a>

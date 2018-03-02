@@ -15,7 +15,7 @@
     height: 60px;
     margin-bottom: 0;
     width: 60px;
-    z-index: 9001;
+    z-index: 101;
     left: 0;
     overflow: hidden;
     position: fixed;
@@ -157,7 +157,7 @@
     height: 60px;
     position: fixed;
     width: 100%;
-    z-index: 9000;
+    z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 

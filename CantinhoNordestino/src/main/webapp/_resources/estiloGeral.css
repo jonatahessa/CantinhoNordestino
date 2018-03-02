@@ -1,0 +1,21 @@
+body {
+    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.backgrounded {
+    padding-top: 40px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.fonte-amaranth {
+  font-family: 'Amaranth', sans-serif;
+}
+
+.fonte-prompt {
+  font-family: 'Prompt', sans-serif;
+}

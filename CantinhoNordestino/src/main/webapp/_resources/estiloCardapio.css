@@ -1,0 +1,25 @@
+#sessao-cardapio {
+    clear: both;
+}
+
+.cardapios {
+  list-style: none;
+}
+
+.titulopreco {
+  font-family: 'Lato', sans-serif;
+}
+
+.titulo {
+  color: red;
+  float: left;
+}
+
+.preco {
+  color: green;
+  float: right;
+}
+
+.descricao {
+  clear: both;
+}
