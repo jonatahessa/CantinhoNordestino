@@ -11,59 +11,94 @@
 
         <%@ include file = "header.jsp" %>
 
-        <div id="galeria" class="container-fluid">
+        <div class="container-fluid clear">
             <div class="row justify-content-center">
                 <div class="backgrounded col-xs-12 col-sm-12 col-md-10 col-lg-10">
-                  <h1 class="fonte-amaranth">Nossa Casa</h1>
-                  <hr/>
+                    <h1 class="fonte-amaranth">Nossa Casa</h1>
+                    <hr/>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-center fonte-amaranth">Vídeos</h2>
+
+                            <div class="row">
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <video class="img-fluid" controls>
+                                        <source src="./_videos/video1.mp4" type="video/mp4">
+                                    </video>
+                                </figure>
+
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <video class="img-fluid" controls>
+                                        <source src="./_videos/video2.mp4" type="video/mp4">
+                                    </video>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row gallery">
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                        <div class="col-12">
+                            <h2 class="text-center fonte-amaranth">Fotos</h2>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                            <div class="row">
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho1.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1445964047600-cdbdb873673d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho2.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho3.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho4.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho5.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho6.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho7.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1445964047600-cdbdb873673d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho8.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho9.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho10.jpeg" alt="" />
+                                </figure>
 
-                        <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                            <img class="img-fluid" src="https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
-                        </figure>
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho11.jpeg" alt="" />
+                                </figure>
+
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho12.jpeg" alt="" />
+                                </figure>
+
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho13.jpeg" alt="" />
+                                </figure>
+
+                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                                    <img class="img-fluid" src="./_imagens/cantinho14.jpeg" alt="" />
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,10 @@ body {
     background-size: cover;
 }
 
+.clear {
+  clear: both;
+}
+
 .backgrounded {
     padding-top: 40px;
     background-color: #FFFFFF;

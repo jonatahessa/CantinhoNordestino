@@ -11,24 +11,30 @@
         <%@ include file = "header.jsp" %>
 
         <div class="container-fluid">
-          <div id="sessao-cardapio" class="row justify-content-center">
-              <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section3">
-                  <h1 class="fonte-amaranth">Cardápio</h1>
-                  <hr/>
+            <div class="row justify-content-center clear">
+                <div id="sessao-cardapio" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded">
+                    <h1 class="fonte-amaranth">Cardápio</h1>
+                    <hr/>
 
-                  <div class="row justify-content-center">
-                      <div class="col-6">
-                          <button type="button" data-toggle="modal" data-target="#modal-comidas"><img src="" alt="">Clique para abrir comidas</button>
-                      </div>
-                  </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                            <button class="botoes-cardapio" type="button" data-toggle="modal" data-target="#modal-comidas">
+                                <img class="img-fluid" src="./_imagens/iscaDeFrango.png" alt="Porção iscas de frango"/>
+                                <h2 class="fonte-amaranth text-danger">Clique para abrir comidas</h2>
+                            </button>
+                        </div>
+                    </div>
 
-                  <div class="row justify-content-center">
-                      <div class="col-6">
-                          <button type="button" data-toggle="modal" data-target="#modal-bebidas"><img src="" alt="">Clique para abrir bebidas</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                            <button class="botoes-cardapio" type="button" data-toggle="modal" data-target="#modal-bebidas">
+                                <img class="img-fluid" src="./_imagens/cerveja.png" alt="Porção iscas de frango"/>
+                                <h2 class="fonte-amaranth text-danger">Clique para abrir bebidas</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="modal fade" id="modal-comidas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">

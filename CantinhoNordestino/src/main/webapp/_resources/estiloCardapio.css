@@ -1,5 +1,15 @@
-#sessao-cardapio {
+.clear {
     clear: both;
+}
+
+#sessao-cardapio {
+
+}
+
+.botoes-cardapio {
+  border: none;
+  background: transparent;
+  margin: 40px auto;
 }
 
 .cardapios {

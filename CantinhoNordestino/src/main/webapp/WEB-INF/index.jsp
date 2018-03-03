@@ -18,6 +18,13 @@
 
         <div class="container-fluid">
             <div class="row justify-content-center">
+                <div class="col-12 dark-back">
+                    <h1 class="text-center display-4">
+                        <a class="text-light" href="tel:01127670696"><strong>2767-0696</strong></a><br/>
+                        <a class="text-light" href="tel:011958254357"><strong>95825-4357</strong></a>
+                        <img class="img-fluid col-1" src="./_imagens/whatsapp.png" alt="">
+                    </h1>
+                </div>
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section1">
                     <h1 class="fonte-amaranth">Home</h1>
                     <hr/>
@@ -26,36 +33,9 @@
                             <img class="img-fluid" src="./_imagens/peixe.jpg" alt="imagem de uma pizza">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>Tradicional na região, a NOSTRA PIZZA vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender à expectativa dos clientes” como sinônimo de qualidade.</p>
-                            <p>Com investimento constante nas instalações, produtos e serviços, faz com que a NOSTRA PIZZA seja considerada um novo clássico na terra das pizzarias.</p>
-                            <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR PIZZAS COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section4">
-                    <h1 class="fonte-amaranth">Localização</h1>
-                    <hr/>
-                    <h3 class="text-center">R. Miguel Fleta, 98 - Parque Doroteia, São Paulo - SP</h3>
-                    <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1291.633052197555!2d-46.64189438999082!3d-23.701337240064078!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4507e991f3a3%3A0x8d4ccb141c5e4646!2sCantinho+Nordestino+Grill!5e0!3m2!1spt-BR!2sbr!4v1519502470774" height="500" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 backgrounded section5">
-                    <h1 class="fonte-amaranth">Contato</h1>
-                    <hr/>
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <h2 class="text-center display-4">
-                                <a class="text-dark" href="tel:01127670696"><strong>2767-0696</strong></a><br/>
-                                <a class="text-dark" href="tel:011958254357"><strong>95825-4357</strong></a>
-                                <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
-                            </h2>
-                            <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p>
-                            <p class="text-center">Developed by Jonata Hessa</p>
+                            <p>Tradicional na região, o <strong>CANTINHO NORDESTINO GRILL</strong> vem unindo a tradição com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender à expectativa dos clientes” como sinônimo de qualidade.</p>
+                            <p>Com investimento constante nas instalações, produtos e serviços, faz com que o <strong>CANTINHO NORDESTINO GRILL</strong> seja considerado um novo clássico em seu bairro.</p>
+                            <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
                         </div>
                     </div>
                 </div>

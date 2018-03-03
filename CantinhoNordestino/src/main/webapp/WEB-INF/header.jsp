@@ -16,10 +16,10 @@
                         <a href="GetSabores" class="waves-effect">Cardápio</a>
                     </li>
                     <li class="page_item page-item-2">
-                        <a href="#" class="waves-effect">Localização</a>
+                        <a href="Localizacao" class="waves-effect">Localização</a>
                     </li>
                     <li class="page_item page-item-2">
-                        <a href="#" class="waves-effect">Contato</a>
+                        <a href="Contato" class="waves-effect">Contato</a>
                     </li>
                 </ul>
             </div>
