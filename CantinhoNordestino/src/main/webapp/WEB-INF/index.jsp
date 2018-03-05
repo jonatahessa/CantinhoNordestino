@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 dark-back">
-                    <h1 class="text-center display-4">
+                    <h1 class="text-center display-4 text-nowrap">
                         <a class="text-light" href="tel:01127670696"><strong>2767-0696</strong></a><br/>
                         <a class="text-light" href="tel:011958254357"><strong>95825-4357</strong></a>
                         <img class="img-fluid col-1" src="./_imagens/whatsapp.png" alt="">

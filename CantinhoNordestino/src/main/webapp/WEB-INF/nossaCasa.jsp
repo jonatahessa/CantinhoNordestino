@@ -17,7 +17,7 @@
                     <h1 class="fonte-amaranth">Nossa Casa</h1>
                     <hr/>
 
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-12">
                             <h2 class="text-center fonte-amaranth">Vídeos</h2>
 
@@ -41,7 +41,7 @@
                         <div class="col-12">
                             <h2 class="text-center fonte-amaranth">Fotos</h2>
 
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                     <img class="img-fluid" src="./_imagens/cantinho1.jpeg" alt="" />
                                 </figure>

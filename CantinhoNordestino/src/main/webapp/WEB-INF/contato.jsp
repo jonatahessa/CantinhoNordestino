@@ -14,15 +14,16 @@
                     <h1 class="fonte-amaranth">Contato</h1>
                     <hr/>
                     <div class="row justify-content-center">
-                        <div class="col-12">
-                            <h2 id="fone-contato" class="text-center display-2">
+                        <div class="col-12 text-nowrap">
+                            <h2 id="fone-contato" class="text-center display-4">
                                 <a class="text-dark" href="tel:01127670696"><strong>2767-0696</strong></a><br/>
                                 <a class="text-dark" href="tel:011958254357"><strong>95825-4357</strong></a>
                                 <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
                             </h2>
-                            <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p>
-                            <p class="text-center">Developed by Jonata Hessa</p>
+
                         </div>
+                        <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p>
+                        <p class="text-center">Developed by Jonata Hessa</p>
                     </div>
                 </div>
             </div>
