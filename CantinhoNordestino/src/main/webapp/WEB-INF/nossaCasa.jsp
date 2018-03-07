@@ -18,23 +18,27 @@
                     <hr/>
 
                     <div class="row justify-content-center">
-                        <div class="col-12">
-                            <h2 class="text-center fonte-amaranth">Vídeos</h2>
-
-                            <div class="row">
-                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                                    <video class="img-fluid" controls>
-                                        <source src="./_videos/video1.mp4" type="video/mp4">
-                                    </video>
-                                </figure>
-
-                                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                                    <video class="img-fluid" controls>
-                                        <source src="./_videos/video2.mp4" type="video/mp4">
-                                    </video>
-                                </figure>
-                            </div>
+                      <div id="karaoke" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text-center text-light">Karaokê</h1>
+                        <div class="row justify-content-center">
+                          <figure class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+                            <video class="col-12 img-fluid" controls>
+                                <source src="./_videos/video2.mp4" type="video/mp4">
+                            </video>
+                          </figure>
                         </div>
+                      </div>
+
+                      <div id="aovivo" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text-center text-light">Música ao Vivo</h1>
+                        <div class="row justify-content-center">
+                          <figure class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <video class="col-12 img-fluid" controls>
+                                <source src="./_videos/video1.mp4" type="video/mp4">
+                            </video>
+                          </figure>
+                        </div>
+                      </div>
                     </div>
 
                     <div class="row gallery">
