@@ -28,7 +28,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
                             <button class="botoes-cardapio col-12" type="button" data-toggle="modal" data-target="#modal-porcoes">
-                                <img class="img-fluid" src="./_imagens/iscaDeFrango.png" alt="Porção iscas de frango"/>
+                                <img class="img-fluid" src="./_imagens/porcoes.jpg" alt="Porção iscas de frango"/>
                                 <h2 class="fonte-amaranth text-danger">Clique para abrir porções</h2>
                             </button>
                         </div>
@@ -37,7 +37,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
                             <button class="botoes-cardapio col-12" type="button" data-toggle="modal" data-target="#modal-bebidas">
-                                <img class="img-fluid" src="./_imagens/cerveja.png" alt="Porção iscas de frango"/>
+                                <img class="img-fluid" src="./_imagens/torrechopp.jpg" alt="Porção iscas de frango"/>
                                 <h2 class="fonte-amaranth text-danger">Clique para abrir bebidas</h2>
                             </button>
                         </div>

@@ -28,6 +28,7 @@
                       <label for="tipoProduto">Tipo</label>
                       <select class="form-control" name="tipo">
                           <option value="COMIDA" ${produto.tipo == 'COMIDA' ? 'selected' : ''}>Comida</option>
+                          <option value="PORCAO" ${produto.tipo == 'PORCAO' ? 'selected' : ''}>Porção</option>
                           <option value="BEBIDA" ${produto.tipo == 'BEBIDA' ? 'selected' : ''}>Bebida</option>
                       </select>
                   </div>

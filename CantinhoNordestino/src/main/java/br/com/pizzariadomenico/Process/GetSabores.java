@@ -29,9 +29,11 @@ public class GetSabores extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         List<Produto> comidas = Utils.ListarPaginaInicialComidas();
+        List<Produto> porcoes = Utils.ListarPaginaInicialPorcoes();
         List<Produto> bebidas = Utils.ListarPaginaInicialBebidas();
         
         request.setAttribute("comidas", comidas);
+        request.setAttribute("porcoes", porcoes);
         request.setAttribute("bebidas", bebidas);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/cardapio.jsp");
         dispatcher.forward(request, response);
