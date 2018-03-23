@@ -60,6 +60,10 @@
         <servlet-name>Contato</servlet-name>
         <servlet-class>br.com.pizzariadomenico.Process.Contato</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Promocao</servlet-name>
+        <servlet-class>br.com.pizzariadomenico.Process.Promocao</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GetSabores</servlet-name>
         <url-pattern>/GetSabores</url-pattern>
@@ -112,6 +116,10 @@
     <servlet-mapping>
         <servlet-name>Contato</servlet-name>
         <url-pattern>/Contato</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Promocao</servlet-name>
+        <url-pattern>/Promocao</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

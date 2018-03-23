@@ -1,7 +1,20 @@
 #karaoke {
-  background: url(../_imagens/karaoke.jpg) center no-repeat fixed;
+  background: url(../_imagens/karaoke.jpg) center no-repeat;
 }
 
 #aovivo {
-  background: url(../_imagens/aovivo.jpg) center no-repeat fixed;
+  background: url(../_imagens/aovivo.jpg) center no-repeat;
+}
+
+.gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#aovivo div {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Permanent Marker', cursive;
 }

@@ -30,6 +30,7 @@
                           <option value="COMIDA" ${produto.tipo == 'COMIDA' ? 'selected' : ''}>Comida</option>
                           <option value="PORCAO" ${produto.tipo == 'PORCAO' ? 'selected' : ''}>Porção</option>
                           <option value="BEBIDA" ${produto.tipo == 'BEBIDA' ? 'selected' : ''}>Bebida</option>
+                          <option value="PROMOCAO" ${produto.tipo == 'PROMOCAO' ? 'selected' : ''}>Promoção</option>
                       </select>
                   </div>
 

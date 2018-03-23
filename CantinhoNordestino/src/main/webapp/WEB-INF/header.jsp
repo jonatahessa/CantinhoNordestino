@@ -9,15 +9,23 @@
                     <li class="page_item page-item-2">
                         <a href="PaginaInicial" class="waves-effect">Home</a>
                     </li>
+
                     <li class="page_item page-item-2">
                         <a href="NossaCasa" class="waves-effect">Nossa Casa</a>
                     </li>
+
+                    <li class="page_item page-item-2">
+                        <a href="Promocao" class="waves-effect">Promoções</a>
+                    </li>
+
                     <li class="page_item page-item-2">
                         <a href="GetSabores" class="waves-effect">Cardápio</a>
                     </li>
+
                     <li class="page_item page-item-2">
                         <a href="Localizacao" class="waves-effect">Localização</a>
                     </li>
+
                     <li class="page_item page-item-2">
                         <a href="Contato" class="waves-effect">Contato</a>
                     </li>

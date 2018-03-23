@@ -22,7 +22,7 @@
                             </h2>
 
                         </div>
-                        <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p>
+                        <p class="text-center">Copyright (c) Cantinho Nordestino Copyright Holder All Rights Reserved.</p><br/>
                         <p class="text-center">Developed by Jonata Hessa</p>
                     </div>
                 </div>

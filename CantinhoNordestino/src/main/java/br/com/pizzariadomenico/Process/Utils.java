@@ -37,6 +37,13 @@ public class Utils {
 
         return pizzas;
     }
+    
+    public static List<Produto> ListarPaginaInicialPromocoes() throws Exception {
+        List<Produto> pizzas = new ArrayList<>();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialPromocao();
+
+        return pizzas;
+    }
 
     public static List<Produto> ListarPaginaInicialBebidas() throws Exception {
         List<Produto> pizzas = new ArrayList<>();
